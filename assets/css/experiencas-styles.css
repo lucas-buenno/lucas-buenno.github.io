@@ -1,0 +1,74 @@
+@import url(/assets/css/global.css);
+
+.experience-section {
+    padding-top: calc(10.8rem + 6.4rem);
+    padding-bottom: 8rem;
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.job-list-column{
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    flex: 1;
+}
+
+.experience-section h2{
+    color: var(--black);
+    flex: 1;
+}
+
+.experience-section span{
+    color: var(--gray-300);
+}
+
+
+.job-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+.job-item-enterprise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job-item-enterprise p {
+    font-size: 1.7rem;
+    font-weight: 590;
+    color: var(--gray-100);
+}
+
+.job-description {
+    font-size: 1.6rem;
+    color: var(--gray-100);
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+.job-item-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--black);
+    display: flex;
+    gap: 1.2;
+    flex-direction: column;
+}
+
+.divider{
+    border: 1px solid var(--gray-900);
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    gap: 2.4rem;
+
+}

@@ -1,0 +1,33 @@
+@import url(/assets/css/global.css);
+
+.contact h1 {
+    color: var(--black);
+    text-align: center;
+    padding-bottom: 6.4rem;
+}
+
+h1 span {
+    color: var(--gray-300);
+}
+
+.contact {
+    padding: 14.8rem 6.4rem;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-left: 19.6rem;
+    padding-right: 19.6rem;
+}
+
+.text-area {
+    text-align: initial;
+    height: 16.4rem;
+}
+
+.contact a{
+    width: fit-content;
+    margin-left: auto;
+}

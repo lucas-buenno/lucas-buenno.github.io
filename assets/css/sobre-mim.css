@@ -1,0 +1,55 @@
+@import url(/assets/css/global.css);
+
+
+.sobre-mim-section {
+    background-color: var(--black);
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+    padding-top: calc(10.8rem + 4rem);
+}
+
+.sobre-mim-section h2 {
+    color: var(--white);
+    padding-bottom: 6.4rem;
+}
+
+.sobre-mim-section span {
+    color: var(--gray-300);
+}
+
+.img-laptop-jpg {
+    background: url("/assets/images/pexels-jeshoots-238118\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 53rem;
+    box-sizing: border-box;
+    border-radius: 2.4rem;
+}
+
+.content-columns {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6.4rem;
+    padding: 10rem;
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+    gap: 9.6rem;
+}
+
+.content-columns p {
+    color: var(--gray-300) ;
+    font-size: 2.2rem;
+    font-weight: 300;
+    flex: 1
+}
+
+.content-columns span {
+    font-weight: 700;
+    color: var(--gray-600);
+}
+
+.sobre-mim-section ::selection{
+    background-color: var(--white);
+    color: var(--black);
+}

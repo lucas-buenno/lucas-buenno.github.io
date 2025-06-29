@@ -1,0 +1,52 @@
+@import url('/assets/css/reset.css');
+@import url('/assets/css/global.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero-section h1 {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    color: var(--black);
+    justify-items: stretch;
+    align-self: left;
+    align-items: center;
+    size: 100%;
+
+}
+
+
+.hero-section h5 {
+    color: var(--gray-200);
+}
+
+
+.hero-section h1 span {
+    color: var(--gray-300);
+}
+
+.hero-section {
+    padding-top: 10.88rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+    padding-bottom: 6.4rem;
+    box-sizing: border-box;
+    bottom: 0;
+    position: relative;
+    vertical-align: bottom;
+    justify-content:flex-end;
+
+}
+
+.hero-bottom {
+    padding-top: 3.2rem;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
