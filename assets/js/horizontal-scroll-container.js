@@ -25,22 +25,18 @@ window.addEventListener('DOMContentLoaded', () => {
       const isScrollingRight = e.deltaY > 0;
       const isScrollingLeft = e.deltaY < 0;
       
-      // Verifica se está no início (esquerda) e tentando rolar para a esquerda
       const isAtStart = scrollArea.scrollLeft <= 0;
-      // Verifica se está no final (direita) e tentando rolar para a direita
       const isAtEnd = scrollArea.scrollLeft >= scrollArea.scrollWidth - scrollArea.clientWidth;
       
-      // Se está no início e tentando rolar para a esquerda, permite scroll vertical
+
       if (isAtStart && isScrollingLeft) {
-        return; // Não previne o comportamento padrão
+        return;
       }
       
-      // Se está no final e tentando rolar para a direita, permite scroll vertical
       if (isAtEnd && isScrollingRight) {
-        return; // Não previne o comportamento padrão
+        return; 
       }
       
-      // Caso contrário, previne o scroll vertical e faz o scroll horizontal
       e.preventDefault();
       const newScrollLeft = scrollArea.scrollLeft + (isScrollingRight ? scrollSpeed : -scrollSpeed);
       scrollArea.scrollLeft = newScrollLeft;

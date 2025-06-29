@@ -1,6 +1,7 @@
 @import url('/assets/css/reset.css');
 @import url("/assets/css/global.css");
 
+
 header{
     position: fixed;
     z-index: 1000;

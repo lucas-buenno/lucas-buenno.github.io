@@ -1,7 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-                
+
+
+/*CLASSE PARA COMPONENTES PADRÃO DO SITE*/
 :root{
     --white: #FFFFFF;
     --black: #000000;
@@ -47,11 +49,11 @@ h5 {
     display: inline-flex;
 }
 
-.primary-large-button .material-icons{
+.primary-large-button .material-icons{ /*fixando a cor do icone do botão*/
     color: var(--white);
 }
 
-.primary-large-button:hover .material-icons{
+.primary-large-button:hover .material-icons{ /*fixando a cor do icone do botão*/
     color: var(--black);
 }
 
@@ -157,6 +159,7 @@ html, body {
     overflow-x: hidden;
 }
 
+/*definindo mouse e pointers*/
 a, button {
     cursor: url('/assets/cursors/Type=Pointing.png'), pointer !important;
 }
